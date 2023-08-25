@@ -3,10 +3,10 @@
 #include "main.h"
 int main()
 {
-char *message = "my name is jones";
+	char *message = "my name is jones";
 
-printf("%s\n", message);
-custom_printf("%s\n", message);
+	printf("%s\n", message);
+	main("%s\n", message);
 
-return (0);
+	return (0);
 }
